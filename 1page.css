@@ -1,0 +1,475 @@
+body{
+   background-color: rgb(249, 219, 197);
+}
+nav{
+  border-radius: 5px;
+    background-color: rgb(234, 189, 189);
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+ul{
+    list-style-type: none;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    margin-right: 20px;
+    text-decoration: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: bold;
+}
+/* In your CSS file (style.css)  section box 1 */
+.box{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 12cm;
+    width: 34cm;
+    background-color: black;
+    border-radius: 10px;
+}
+.box h1{
+    color: greenyellow;
+    text-align: center;
+    font-family: Broadway;
+    font-size: 60px;
+    
+    padding-top: 40px;
+}
+.box h6{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+/* In your CSS file (style.css)  section box 2 */
+.box2 h1{
+    color: lightgreen;
+    text-align: center;
+    font-size: 50px;
+  font-family: Algerian; 
+  }
+/*pic ya to video har image ka size set krna ha*/
+.box2 img{
+    margin-left: 10px;
+    height: 330px;
+    width: 260px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: -20px;
+}   
+.mainimg{
+    align-items: center;
+   display: flex;
+}
+/*img or video section or hover*/
+.mainimg .im1{
+    box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    border-radius: 20px;
+    margin-top: -60px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 20px;
+}
+.mainimg .im1:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+.mainimg .im2{
+     box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    margin-top: 33px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 27px;
+}
+.mainimg .im2:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+.mainimg .im3{
+     box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    border-radius: 20px;
+    margin-top: -60px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 27px;
+}
+.mainimg .im3:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+.mainimg .im4{
+     box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    margin-top: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 27px;
+}
+.mainimg .im4:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+/* pic ka name*/
+.mainimg .im1 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+.mainimg .im2 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+.mainimg .im3 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+.mainimg .im4 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+/*pic ka description*/
+.mainimg p{
+    margin-top: -10px;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.price-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;                              
+}
+.price-button h2{
+    margin: 0;
+}
+.price-button h2{
+    margin: 0;
+    font-size: 28px;
+    white-space: nowrap;
+}
+.mainimg .im1 button, .mainimg .im2 button, .mainimg .im3 button , .mainimg .im4 button{
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    border-style: none;
+}
+.price-button button{
+  margin-right: 10px;
+  margin-top:  -10px; 
+  cursor: pointer;
+}
+.price-button button:hover{
+    border-width: 2px;
+    background-color: lime;
+}
+.price-button h2{
+    margin-top: -10px;
+    margin-left: 15px;
+}    
+                                    /*box 3 section*/
+.mainimg1{
+  display: flex;
+}
+.box3 img{
+    margin-left: 10px;
+    height: 330px;
+    width: 260px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: -20px;
+}   
+.mainimg1 .im1{
+    box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    border-radius: 20px;
+    margin-top: -5px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 20px;
+}
+.mainimg1 .im1:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+.mainimg1 .im2{
+     box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    margin-top: 45px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 27px;
+}
+.mainimg1 .im2:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+.mainimg1 .im3{
+     box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    border-radius: 20px;
+    margin-top: -5px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 27px;
+}
+.mainimg1 .im3:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+.mainimg1 .im4{
+     box-shadow: 0px 8px 15px rgba(0.1, 0.1, 0.1, 0.1);
+    margin-top: 45px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    height: 515px;
+      margin-left: 27px;
+}
+.mainimg1 .im4:hover{
+     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.6);
+       transform: scale(1.05);
+    transition: transform 0.6s ease;
+}
+/* pic ka name*/
+.mainimg1 .im1 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+.mainimg1 .im2 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+.mainimg1 .im3 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+.mainimg1 .im4 .name{
+    font-family: Algerian; 
+    color: rgb(134, 198, 39) ;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 4px;
+}
+/*pic ka description*/
+.mainimg1 p{
+    margin-top: -10px;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.price-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;                             
+}
+.price-button h2{
+    margin: 0;
+    font-size: 28px;
+    white-space: nowrap;
+}
+.mainimg1 .im1 button, .mainimg1 .im2 button, .mainimg1 .im3 button , .mainimg1 .im4 button{
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    border-style: none;
+}
+.price-button button{
+  margin-right: 10px;
+  margin-top:  -10px; 
+  cursor: pointer;
+}
+.price-button button:hover{
+    border-width: 2px;
+    background-color: lime;
+}
+.price-button h2{
+    margin-top: -10px;
+    margin-left: 15px;
+}
+/* From Uiverse.io by wilsondesouza */ 
+.last h2{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(55, 101, 55);
+}
+ul {
+  list-style: none;
+}
+
+.example-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.example-2 .icon-content {
+  margin: 0 10px;
+  position: relative;
+}
+.example-2 .icon-content .tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.example-2 .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -50px;
+}
+.example-2 .icon-content a {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.example-2 .icon-content a:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.example-2 .icon-content a svg {
+  position: relative;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+}
+.example-2 .icon-content a:hover {
+  color: white;
+}
+.example-2 .icon-content a .filled {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.example-2 .icon-content a:hover .filled {
+  height: 100%;
+}
+
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+  background-color: #0274b3;
+}
+
+.example-2 .icon-content a[data-social="github"] .filled,
+.example-2 .icon-content a[data-social="github"] ~ .tooltip {
+  background-color: #24262a;
+}
+.example-2 .icon-content a[data-social="instagram"] .filled,
+.example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5b51db,
+    #b33ab4,
+    #c135b4,
+    #e1306c,
+    #fd1f1f
+  );
+}
+.example-2 .icon-content a[data-social="youtube"] .filled,
+.example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+  background-color: #ff0000;
+}
+.example-2 .icon-content a[data-social="tiktok"] .filled,
+.example-2 .icon-content a[data-social="tiktok"] ~ .tooltip {
+  background: linear-gradient(
+    45deg,
+    #25f4ee,
+    #25f4ee,
+    #fe2c55,
+    #fe2c55
+  );
+}
+.example-2 .icon-content a[data-social="facebook"] .filled,
+.example-2 .icon-content a[data-social="facebook"] ~ .tooltip {
+  background-color: #1877f2;
+}
+.example-2 .icon-content a[data-social="threads"] .filled,
+.example-2 .icon-content a[data-social="threads"] ~ .tooltip {
+  background-color: #000000;
+}
+.last  hr{
+  border-color: solid black;
+  border-width: 2px;
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.last .root{
+  text-align: center;
+  font-size: 80px;
+ font-family: Algerian; 
+  color: lightgreen;
+  margin-top: 20px;
+}
